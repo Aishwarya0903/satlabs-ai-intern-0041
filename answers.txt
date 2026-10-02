@@ -1,0 +1,9 @@
+# Fill in every line. Percentages to one decimal place, IDs separated by commas.
+# Say in writeup.md how you arrived at each one.
+candidate_id: ai-intern-0041
+accuracy_model_a:
+accuracy_model_b:
+duplicate_question_ids:
+wrong_answer_key_ids:
+# Optional, not marked: a link to your GitHub profile or other public code.
+github_profile:
