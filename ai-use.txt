@@ -1,0 +1,24 @@
+Tools used
+
+- Python 3, standard library only: analysis.py. I also ran the provided score.py to
+  reproduce the starting numbers (78.6% / 42.9%).
+
+- Git and GitHub: I built the work in five phases and committed after each one:
+  key audit and duplicates, response parsing, re-scoring, significance tests and
+  failure patterns, then the write-up.
+
+- Claude (Anthropic AI assistant, used through the Claude desktop app):
+  - read the provided files and listed possible problems: response formats, the
+    answer key, duplicate questions, temperature settings, latency
+  - drafted the code for each phase of analysis.py
+  - suggested the commit messages
+  - drafted writeup.md and cut it to under 300 words
+
+- What I did myself:
+  - ran analysis.py after every phase and read the output before committing
+  - checked that the three wrong key rows (q007, q041, q046) are wrong by doing the
+    arithmetic myself
+  - looked at an example of each model-b reply format to confirm the "last integer"
+    rule gives the right number
+  - checked that every number in writeup.md and answers.txt matches what
+    analysis.py prints
